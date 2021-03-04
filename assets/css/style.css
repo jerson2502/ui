@@ -20,7 +20,7 @@ body{
 .img__slider{
 	bottom:300px;
 	position: relative;
-	width: 1400px;
+	width: 1700px;
 	height: 200px;
 }
 .img__slider .slide{
@@ -62,7 +62,16 @@ body{
 	background: yellow;
 	box-shadow: 0 2px 3px white;
 }
+@media (max-width: 1700px){
+	.img__slider{
+		width: 1300px;
+	}
 
+
+@media (max-width: 1400px){
+	.img__slider{
+		width: 1000px;
+	}
 
 @media (max-width: 920px){
 	.img__slider{
